@@ -1,0 +1,429 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato';
+}
+
+a {
+    text-decoration: none;
+}
+
+.header-contain {
+    top: 0;
+    background-color: #1A1A1A;
+    height: 70px;
+    padding: 1rem 0;
+    color: #EAEAEA;
+    position: sticky;
+    width: 100%;
+    z-index: 100;
+    text-shadow: 10px 10px 10px #000000;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 1rem;
+
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    transition: 0.5s;
+    border-bottom: 1px solid transparent;
+}
+
+nav ul li a:hover {
+    color: #3d3c4a;
+    border-bottom: #333333;
+}
+
+
+
+.sobre-mim-contain {
+    background-color: #212529;
+    display: flex;
+    color: #EAEAEA;
+    justify-content: space-between;
+    align-items: center;
+    height: 750px;
+
+}
+
+.sobre-mim h2 {
+    margin: 20px;
+    font-size: 35px;
+    text-shadow: 10px 10px 10px #000000;
+}
+
+.sobre-mim-contain p {
+    margin: 20px;
+    line-height: 25px;
+    text-align: center;
+    text-align: justify;
+    text-shadow: 10px 10px 10px #000000;
+}
+
+.sobre-mim {
+    width: 500px;
+    margin: auto;
+}
+
+.sobre-mim-contain span {
+    color: red;
+}
+
+.sobre-mim-contain picture img {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    opacity: 0.7;
+    width: 40%;
+
+}
+
+.habilidades-contain {
+    height: 659px;
+    background-color: #343A40;
+    color: #EAEAEA;
+    position: relative;
+}
+
+.habilidades-contain h2 {
+    text-align: center;
+    font-size: 34px;
+    padding: 1rem 0;
+    text-shadow: 10px 10px 10px #000000;
+}
+
+.habilidades {
+    width: 600px;
+    height: 400px;
+    padding: 2rem;
+    background-color: #1A1A1A;
+    border-radius: 20px;
+    margin: 40px;
+    box-shadow: 3px 5px 4px 2px black;
+    transition: 0.5s;
+}
+
+.habilidades:hover {
+    box-shadow: 3px 5px 10px 5px black;
+}
+
+
+
+.habilidades p {
+    display: flex;
+    justify-content: space-between;
+    padding: 16px;
+}
+
+.progresso-bar-html {
+    width: 100%;
+    border-radius: 20px;
+    background-color: #EAEAEA;
+    height: 10px;
+    position: relative;
+}
+
+
+.progresso-bar-html .progresso-html {
+    background-color: red;
+    width: 100%;
+    line-height: 20px;
+    border-radius: 20px;
+    height: 100%;
+}
+
+.progresso-bar-css {
+    width: 100%;
+    border-radius: 20px;
+    background-color: #EAEAEA;
+    height: 10px;
+    position: relative;
+}
+
+
+.progresso-bar-css .progresso-css {
+    background-color: red;
+    width: 60%;
+    line-height: 20px;
+    border-radius: 20px;
+    height: 100%;
+}
+
+.progresso-bar-javascript {
+    width: 100%;
+    border-radius: 20px;
+    background-color: #EAEAEA;
+    height: 10px;
+    position: relative;
+}
+
+
+.progresso-bar-javascript .progresso-javascript {
+    background-color: red;
+    width: 30%;
+    line-height: 20px;
+    border-radius: 20px;
+    height: 100%;
+}
+
+.progresso-bar-c {
+    width: 100%;
+    border-radius: 20px;
+    background-color: #EAEAEA;
+    height: 10px;
+    position: relative;
+}
+
+
+.progresso-bar-c .progresso-c {
+    background-color: red;
+    width: 30%;
+    line-height: 20px;
+    border-radius: 20px;
+    height: 100%;
+}
+
+.progresso-bar-sql {
+    width: 100%;
+    border-radius: 20px;
+    background-color: #EAEAEA;
+    height: 10px;
+    position: relative;
+}
+
+
+.progresso-bar-sql .progresso-sql {
+    background-color: red;
+    width: 30%;
+    line-height: 20px;
+    border-radius: 20px;
+    height: 100%;
+}
+
+.meus-projetos {
+    background-color: #212529;
+    width: 100%;
+    height: 660px;
+
+}
+
+.meus-projetos h2 {
+
+    font-size: 34px;
+    color: #EAEAEA;
+    padding: 1rem 0;
+    text-align: center;
+    text-shadow: 10px 10px 10px #000000;
+}
+
+.projetos {
+    justify-content: center;
+    margin: 50px;
+    display: flex;
+    gap: 2rem;
+}
+
+.projeto {
+    border-radius: 20px;
+    width: 350px;
+    height: 400px;
+    background-color: #343A40;
+    box-shadow: 3px 5px 4px 2px black;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.projeto:hover {
+    box-shadow: 3px 5px 10px 5px black;
+}
+
+.projeto img {
+    border-radius: 20px 20px 0px 0px;
+    width: 100%;
+}
+
+.projeto p {
+    padding: 10px;
+    text-align: justify;
+    line-height: 25PX;
+    color: #EAEAEA;
+}
+
+mark {
+    background-color: #4f6244;
+    color: #EAEAEA;
+}
+
+
+footer {
+    background-color: #343A40;
+
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+footer ul {
+    height: 40px;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 20px;
+}
+
+.github a {
+    color: #171515;
+
+}
+
+.linkedin a {
+    color: #0e76a8;
+}
+
+/* Estilos para smartphones */
+
+
+/* tablet 900px */
+@media (max-width: 900px) {
+
+    /* Sobre mim */
+    .sobre-mim {
+        width: 700px;
+        margin: auto;
+    }
+
+    .sobre-mim p {
+        font-size: 20px;
+        line-height: 40px;
+    }
+
+    /* Habilidade */
+    .habilidades {
+        margin: 60px auto;
+        width: 600px;
+        height: 420px;
+    }
+
+    .habilidades p {
+        padding: 20px;
+    }
+
+    /* Projetos */
+    .meus-projetos {
+        background-color: #212529;
+        width: 100%;
+        height: 760px;
+    }
+
+    .projeto {
+        margin: auto;
+        width: 600px;
+        height: 520px;
+    }
+
+    .projeto p {
+        line-height: 38px;
+        font-size: 20px;
+    }
+
+    #p2, #p3 {
+        display: none;
+    }
+
+    /* Footer */
+    footer p {
+        font-size: 20px;
+    }
+
+    .github a, .linkedin a {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 576px) {
+
+    /* Header */
+    header nav {
+        justify-content: center;
+    }
+
+    nav h1 {
+        display: none;
+    }
+
+    nav a {
+        font-size: 12px;
+    }
+
+    /* Sobre mim */
+    .sobre-mim h2 {
+        font-size: 34px;
+    }
+
+    .sobre-mim-contain p {
+        font-size: 15px;
+        line-height: 30px;
+    }
+
+    .sobre-mim-contain picture img {
+        display: none;
+    }
+
+    /* Habilidade */
+    .habilidades {
+        margin: 60px auto;
+        width: 300px;
+        height: 320px;
+    }
+
+    .habilidades p {
+        padding: 10px;
+    }
+
+    /* Projetos */
+    .meus-projetos{
+        height: 600px;
+    }
+    .projeto {
+        margin: auto;
+        width: 300px;
+        height: 320px;
+    }
+
+    .projeto img {
+        width: 100%;
+    }
+
+    .projeto p {
+        line-height: 25px;
+        font-size: 10px;
+    }
+
+    #p2, #p3 {
+        display: none;
+    }
+
+    /* Footer */
+    footer p {
+        font-size: 10px;
+    }
+}
